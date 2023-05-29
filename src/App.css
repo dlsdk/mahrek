@@ -1,11 +1,70 @@
 .App {
   text-align: center;
+  min-height: 100vh;
+  padding-top: 10%;
+  background-image: url("https://img.freepik.com/free-photo/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28312.jpg?w=996&t=st=1685343496~exp=1685344096~hmac=2744093b5cfd2720d15864531ec11e30e1ab75d165a2b5de41bd1b886739f584");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.title{
+  margin-bottom: 8rem;
+  color: antiquewhite;
+  font-size: 3rem;
+  font-family: 'Lora', serif;
+}
+.card{
+  border-color: rgb(71, 70, 68);
+  background-color: rgba(35, 35, 35, 0.841);
+  width:30rem;
+}
+.minplusicon{
+  font-size:3rem;
+  color:antiquewhite;
+}
+.count{
+  margin: 1rem;
+  display:inline-block;
+  color:antiquewhite;
+  font-size:7rem;
+  font-family: 'Source Serif Pro', serif;
+}
+.warningmessage{
+  margin: 3rem;
+  background-color:rgba(35, 35, 35, 0.841);
+  padding:1rem;
+  font-size:1rem;
+  border:solid 2px antiquewhite;
+  color:antiquewhite;
+  display:inline-block;
+}
+.warnicon{
+  margin-right:0.5rem;
+  font-size:1.5rem;
+}
+
+label{
+  margin-right: 1.5rem;
+  color: antiquewhite;
+}
+
+input{
+  background-color: transparent;
+  border: none;
+  border-bottom:3px solid antiquewhite;
+  border-radius: 10%;
+  color:antiquewhite;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+
+
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -24,6 +83,7 @@
   color: white;
 }
 
+
 .App-link {
   color: #61dafb;
 }
@@ -36,3 +96,5 @@
     transform: rotate(360deg);
   }
 }
+
+
